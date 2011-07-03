@@ -6,7 +6,8 @@ gem 'rails', '3.0.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3-ruby', '1.2.5', :require => 'sqlite3'
-gem 'rake', '0.8.7'
+#gem 'rake', '0.8.7'
+gem 'gravatar_image_tag', '1.0.0.pre2'
 
 group :development do
 	gem 'rspec-rails', '2.0.1'
@@ -16,6 +17,7 @@ end
 group :test do
 	gem 'rspec', '2.0.1'
 	gem 'webrat', '0.7.1'
+  gem 'factory_girl_rails', '1.0'
 #	gem 'spork', '0.8.4'
 end
 
